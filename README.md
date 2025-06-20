@@ -27,3 +27,28 @@ A full-stack MERN (MongoDB, Express, React, Node.js) based **Social Media Web Ap
 
 ## 📁 Folder Structure
 
+social-media/
+├── backend/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── middleware/
+│ └── server.js
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ └── App.js
+│ └── tailwind.config.js
+
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/Ajay-rawat-op/social-media.git
+cd social-media
+
