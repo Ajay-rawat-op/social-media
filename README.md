@@ -6,9 +6,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) based **Social Media Web Ap
 
 ## 🔥 Features
 
-- 📝 User Sign Up & Login (with JWT)
-- 👤 Profile Page with Edit & View Mode
-- 📸 Create, Like, and Delete Posts
+- 📸 Create, Edit, and Delete Posts
 - 🔍 Search Users or Posts
 - 🌗 Dark / Light Mode Toggle
 - 📱 Fully Responsive (Mobile + Desktop)
@@ -48,7 +46,7 @@ social-media/
 ## 🚀 Getting Started
 
 ### 1. Clone the Repo
-```bash
+
 git clone https://github.com/Ajay-rawat-op/social-media.git
 cd social-media
 
