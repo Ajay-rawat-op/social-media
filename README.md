@@ -1,12 +1,12 @@
-# Social Media App 🚀
+# Question Bank App 🚀
 
-A full-stack MERN (MongoDB, Express, React, Node.js) based **Social Media Web App** that allows users to connect, post, like, comment, and share content in real time.
+A full-stack MERN (MongoDB, Express, React, Node.js) based **Question Bank Web App** that allows users to connect, post, question, and share content.
 
 ---
 
 ## 🔥 Features
 
-- 📸 Create, Edit, and Delete Posts
+- 📸 Create, Edit, and Delete question Posts
 - 🔍 Search Users or Posts
 - 🌗 Dark / Light Mode Toggle
 - 📱 Fully Responsive (Mobile + Desktop)
