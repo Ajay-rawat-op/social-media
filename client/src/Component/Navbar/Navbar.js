@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <span className="text-2xl font-extrabold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text">
-            Social site
+            Question Bank
           </span>
         </Link>
 
@@ -33,15 +33,13 @@ const Navbar = () => {
             <Link
               key={item.path}
               to={item.path}
-              className={`relative group ${
-                location.pathname === item.path ? 'text-purple-400' : 'text-gray-800 dark:text-white'
-              } whitespace-nowrap`}
+              className={`relative group ${location.pathname === item.path ? 'text-purple-400' : 'text-gray-800 dark:text-white'
+                } whitespace-nowrap`}
             >
               {item.label}
               <span
-                className={`absolute left-0 -bottom-1 h-0.5 w-full bg-purple-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left ${
-                  location.pathname === item.path ? 'scale-x-100' : ''
-                }`}
+                className={`absolute left-0 -bottom-1 h-0.5 w-full bg-purple-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left ${location.pathname === item.path ? 'scale-x-100' : ''
+                  }`}
               ></span>
             </Link>
           ))}
@@ -86,9 +84,8 @@ const Navbar = () => {
                 <Link
                   to={item.path}
                   onClick={() => setMobileMenuOpen(false)}
-                  className={`block hover:text-purple-400 ${
-                    location.pathname === item.path ? 'text-purple-400 font-semibold' : ''
-                  }`}
+                  className={`block hover:text-purple-400 ${location.pathname === item.path ? 'text-purple-400 font-semibold' : ''
+                    }`}
                 >
                   {item.label}
                 </Link>
@@ -104,9 +101,8 @@ const Navbar = () => {
           <Link
             key={item.path}
             to={item.path}
-            className={`flex flex-col items-center text-sm ${
-              location.pathname === item.path ? 'text-purple-400' : 'text-white'
-            }`}
+            className={`flex flex-col items-center text-sm ${location.pathname === item.path ? 'text-purple-400' : 'text-white'
+              }`}
           >
             <span>{item.label}</span>
           </Link>

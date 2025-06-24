@@ -41,7 +41,8 @@ const Homepage = () => {
             <span className="inline-block animate-from-top">Welcome</span>
             <span className="inline-block animate-from-bottom">to</span>
             <span className="inline-block animate-from-right">Our</span>
-            <span className="inline-block animate-from-top">Beautiful</span>
+            <span className="inline-block anima
+            te-from-top">Beautiful</span>
             <span className="inline-block animate-from-left">Post Page</span>
           </h1>
           <p className="text-gray-500 dark:text-gray-400 text-lg">Discover amazing content curated by the community</p>
